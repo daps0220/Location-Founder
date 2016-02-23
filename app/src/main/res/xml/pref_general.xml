@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+            android:key="start_app"
+            android:title="Start Application"
+            android:defaultValue="start"
+            android:dialogMessage="Enter keyword to Start Application"
+            android:inputType="text"
+            android:capitalize="characters"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+        <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+        <EditTextPreference
+            android:key="normal_mode"
+            android:title="Ringer Mode"
+            android:defaultValue="normal"
+            android:dialogMessage="Enter keyword for Ringer Mode"
+            android:inputType="text"
+            android:capitalize="characters"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditTextPreference
+            android:key="silent_mode"
+            android:title="Silent Mode"
+            android:defaultValue="silent"
+            android:dialogMessage="Enter keyword for Silent Mode"
+            android:inputType="text"
+            android:capitalize="characters"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+
+</PreferenceScreen>
